@@ -14,7 +14,7 @@ export function AboutSection() {
 
             <div className="mb-8">
               <p className="text-gray-800 leading-relaxed mb-4">
-                At <strong>Bengaluru TV Care</strong>, we are a local TV repair service dedicated to serving the entire
+                At <strong>Bengaluru TV Guru</strong>, we are a local TV repair service dedicated to serving the entire
                 Bengaluru region. With years of experience, our <strong>trained and certified technicians</strong>{" "}
                 specialize in repairing all types of TVs, including{" "}
                 <strong>LED, OLED, QLED, 4K, Plasma and Smart TVs</strong>. We focus on{" "}

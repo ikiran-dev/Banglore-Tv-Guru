@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Phone } from "lucide-react"
+import Image from "next/image"
 
 export function Header() {
   return (
@@ -27,7 +28,7 @@ export function Header() {
         </nav>
 
         <Button className="bg-blue-600 hover:bg-blue-700 transition-all duration-200 text-white px-6 py-2 font-bold">
-          <Phone className="w-4 h-4 mr-2" />
+          <Image width={30} height={30} src="/call.gif" alt="call"/>
           Call Now
         </Button>
 

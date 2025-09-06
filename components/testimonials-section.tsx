@@ -72,7 +72,7 @@ export function TestimonialsSection() {
               Chat on WhatsApp Now
             </Button>
             <Button className="bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg font-bold min-w-[330px]">
-              <Phone  width={24} height={24} className="mr-2" />
+              <Image width={30} height={30} src="/call.gif" alt="call"/>
               Call Now
             </Button>
           </div>
