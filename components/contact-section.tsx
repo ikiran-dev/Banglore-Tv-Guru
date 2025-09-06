@@ -59,12 +59,11 @@ export function ContactSection() {
                   <Image src="/whatsapp-logo.png" alt="WhatsApp" width={24} height={24} className="mr-2" />
                   Chat on WhatsApp Now
                 </Button>
-                <Button
+               <Button
                   size="lg"
-                  variant="outline"
-                  className="border-blue-600 text-blue-600 hover:bg-blue-50 w-full bg-transparent py-6 text-lg font-bold"
+                  className="border border-transparent  text-white hover:bg-blue-700  w-full bg-blue-600 py-6 text-lg font-bold"
                 >
-                  <Phone className="w-4 h-4 mr-2" />
+                   <Image width={30} height={30} src="/call.gif" alt="call"/>
                   Call Now
                 </Button>
               </div>
