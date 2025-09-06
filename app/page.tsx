@@ -14,7 +14,7 @@ export default function Home() {
       <Image src="/whatsapp-logo.png" alt="WhatsApp" width={48} height={48} className="whatsapp-icon" />
     </a>
       <Header />
-      <main>
+      <main className="pt-16">
         <HeroSection />
         <AboutSection />
         <TestimonialsSection />

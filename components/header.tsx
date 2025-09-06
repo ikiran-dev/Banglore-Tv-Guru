@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export function Header() {
   return (
-    <header className="w-full bg-white border-b">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full bg-white border-b">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 flex h-16 items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="text-xl font-bold">
@@ -31,8 +31,6 @@ export function Header() {
           <Image width={30} height={30} src="/call.gif" alt="call"/>
           Call Now
         </Button>
-
-
       </div>
     </header>
   )
