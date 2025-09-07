@@ -67,7 +67,7 @@ export default function TermsAndConditions() {
 
             <div className="bg-gray-50 border rounded-lg p-6 mt-8">
               <p className="text-sm text-gray-600">
-                <strong>Last Updated:</strong> January 2024
+                <strong>Last Updated:</strong> September 2025
                 <br />
                 These terms and conditions are subject to change without prior notice. Please review them periodically.
               </p>
