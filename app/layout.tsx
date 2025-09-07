@@ -30,8 +30,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
   },
-};
-
+}
 
 export default function RootLayout({
   children,
@@ -40,6 +39,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Ads Global Site Tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17538731152"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17538731152');
+            `,
+          }}
+        />
+      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
         <Analytics />
