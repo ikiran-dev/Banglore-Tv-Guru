@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Phone } from "lucide-react"
+import Link from "next/link"
 import Image from "next/image"
 
 export function Header() {
@@ -26,11 +26,12 @@ export function Header() {
             Contact
           </a>
         </nav>
-
+          <Link href="tel:080-62178864">
         <Button className="bg-blue-600 hover:bg-blue-700 transition-all duration-200 text-white px-6 py-2 font-bold">
           <Image width={30} height={30} src="/call.gif" alt="call"/>
           Call Now
         </Button>
+        </Link>
       </div>
     </header>
   )

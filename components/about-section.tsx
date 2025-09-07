@@ -1,8 +1,29 @@
+'use client'
+
+import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 export function AboutSection() {
+  const [name, setName] = useState("")
+  const [phone, setPhone] = useState("")
+
+  const handleWhatsAppSubmit = () => {
+    if (!name || !phone) {
+      alert("Please enter both your name and phone number.")
+      return
+    }
+
+    const message = `Hi, my name is ${name} and my phone number is ${phone}. I would like to request TV repair services.`
+    const whatsappURL = `https://wa.me/919845188786?text=${encodeURIComponent(message)}`
+
+    // Open WhatsApp and reset the form
+    window.open(whatsappURL, "_blank")
+    setName("")
+    setPhone("")
+  }
+
   return (
     <section id="about" className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
@@ -64,10 +85,33 @@ export function AboutSection() {
               <h3 className="text-xl font-bold mb-4 text-center text-black">Request a Call Back</h3>
 
               <div className="space-y-4">
-                <Input placeholder="Your Name" className="w-full" />
-                <Input placeholder="Your Phone Number" className="w-full" />
-                <Button className="w-full bg-green-500 hover:bg-green-600 text-white py-6 text-lg font-bold">
-                  <Image src="/whatsapp-logo.png" alt="WhatsApp" width={24} height={24} className="mr-2" />
+                <Input
+                  placeholder="Your Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="w-full"
+                />
+                <Input
+                  placeholder="Your Phone Number"
+                  type="tel"
+                  value={phone}
+                   onChange={(e) => {
+                      const onlyNums = e.target.value.replace(/\D/g, "").slice(0, 10)
+                      setPhone(onlyNums)
+                    }}
+                  className="w-full"
+                />
+                <Button
+                  onClick={handleWhatsAppSubmit}
+                  className="w-full bg-green-500 hover:bg-green-600 text-white py-6 text-lg font-bold"
+                >
+                  <Image
+                    src="/whatsapp-logo.png"
+                    alt="WhatsApp"
+                    width={24}
+                    height={24}
+                    className="mr-2"
+                  />
                   Send via WhatsApp
                 </Button>
               </div>

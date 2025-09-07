@@ -5,12 +5,11 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
-import { Phone } from "lucide-react"
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-       <a href="https://wa.me/917795967453?text=Hi%20I%20would%20like%20to%20request%20TV%20repair%20services" className="whatsapp-btn animate-pulseRing" target="_blank" rel="noopener noreferrer">
+       <a href="https://wa.me/919845188786?text=Hi%20I%20would%20like%20to%20request%20TV%20repair%20services" className="whatsapp-btn animate-pulseRing" target="_blank" rel="noopener noreferrer">
       <Image src="/whatsapp-logo.png" alt="WhatsApp" width={48} height={48} className="whatsapp-icon" />
     </a>
       <Header />
@@ -28,7 +27,7 @@ export default function Home() {
        className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 flex flex-col items-center justify-center text-[20px] font-bold shadow-lg relative z-10 call-button transition-all duration-300">
       <div className="flex items-center space-x-1 pb-1">
         <Image width={30} height={30} src="/call.gif" alt="call"/>
-        <span >Call Now: 6363053425</span>
+        <span >Call Now: 080-62178864</span>
       </div>
        <span className="text-[14px]">Doorstep Service With Free Estimate</span>
     </a>

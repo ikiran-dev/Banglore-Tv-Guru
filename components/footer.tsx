@@ -18,7 +18,7 @@ export function Footer() {
           Terms & Conditions
         </Link>
         <span className="text-blue-600">|</span>
-        <a href="#contact" className="text-blue-600 hover:text-blue-700 transition-colors">
+        <a href="tel:080-62178864" className="text-blue-600 hover:text-blue-700 transition-colors">
           Contact Us
         </a>
       </div>

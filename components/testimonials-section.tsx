@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Phone, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 export function TestimonialsSection() {
   const testimonials = [
@@ -67,14 +68,18 @@ export function TestimonialsSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="https://wa.me/919845188786?text=Hi%20I%20would%20like%20to%20request%20TV%20repair%20services">
             <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 text-lg font-bold">
               <Image src="/whatsapp-logo.png" alt="WhatsApp" width={24} height={24} className="mr-2" />
               Chat on WhatsApp Now
             </Button>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg font-bold min-w-[330px]">
+            </Link>
+             <Link href="tel:080-62178864">
+            <Button className="bg-blue-600 hover:bg-blue-700  text-white py-6 text-lg font-bold min-w-[330px]">
               <Image width={30} height={30} src="/call.gif" alt="call"/>
               Call Now
             </Button>
+            </Link>
           </div>
         </div>
       </div>
