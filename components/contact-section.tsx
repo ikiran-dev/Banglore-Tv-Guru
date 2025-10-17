@@ -92,10 +92,10 @@ export function ContactSection() {
                 <CardContent className="p-6">
                   <h3 className="font-semibold mb-4">Contact Information</h3>
                   <div className="space-y-3">
-                    <Link href="tel:080-62178864">
+                    <Link href="tel:080-62180344">
                       <div className="flex items-center space-x-3">
                         <Phone className="w-5 h-5 text-primary" />
-                        <span>080-62178864</span>
+                        <span>080-62180344</span>
                       </div>
                     </Link>
                     <div className="flex items-center space-x-3">
@@ -125,7 +125,7 @@ export function ContactSection() {
                   </Button>
                 </a>
 
-                <Link href="tel:080-62178864">
+                <Link href="tel:080-62180344">
                   <Button
                     size="lg"
                     className="border border-transparent text-white hover:bg-blue-700 w-full bg-blue-600 py-6 text-lg font-bold"
