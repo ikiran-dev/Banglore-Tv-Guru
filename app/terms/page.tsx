@@ -61,7 +61,7 @@ export default function TermsAndConditions() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">6. Contact Information</h2>
               <p>
-                For any queries or concerns regarding these terms, please contact us at 080-62180344             or through WhatsApp.
+                For any queries or concerns regarding these terms, please contact us at +91-8904822800             or through WhatsApp.
               </p>
             </section>
 

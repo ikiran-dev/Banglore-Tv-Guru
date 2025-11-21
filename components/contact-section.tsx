@@ -95,7 +95,7 @@ export function ContactSection() {
                     <Link href="tel:+91-8904822800">
                       <div className="flex items-center space-x-3">
                         <Phone className="w-5 h-5 text-primary" />
-                        <span>080-62180344</span>
+                        <span>+91-8904822800</span>
                       </div>
                     </Link>
                     <div className="flex items-center space-x-3">
