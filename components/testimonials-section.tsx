@@ -68,13 +68,13 @@ export function TestimonialsSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="https://wa.me/919845188786?text=Hi%20I%20would%20like%20to%20request%20TV%20repair%20services">
+            <Link href="https://wa.me/918904822800?text=Hi%20I%20would%20like%20to%20request%20TV%20repair%20services">
             <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 text-lg font-bold">
               <Image src="/whatsapp-logo.png" alt="WhatsApp" width={24} height={24} className="mr-2" />
               Chat on WhatsApp Now
             </Button>
             </Link>
-             <Link href="tel:080-62180344">
+             <Link href="tel:+91-8904822800">
             <Button className="bg-blue-600 hover:bg-blue-700  text-white py-6 text-lg font-bold min-w-[330px]">
               <Image width={30} height={30} src="/call.gif" alt="call"/>
               Call Now

@@ -16,7 +16,7 @@ export function AboutSection() {
     }
 
     const message = `Hi, my name is ${name} and my phone number is ${phone}. I would like to request TV repair services.`
-    const whatsappURL = `https://wa.me/919845188786?text=${encodeURIComponent(message)}`
+    const whatsappURL = `https://wa.me/918904822800?text=${encodeURIComponent(message)}`
 
     // Open WhatsApp and reset the form
     window.open(whatsappURL, "_blank")

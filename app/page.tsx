@@ -9,7 +9,7 @@ import Image from "next/image"
 export default function Home() {
   return (
     <div className="min-h-screen">
-       <a href="https://wa.me/919845188786?text=Hi%20I%20would%20like%20to%20request%20TV%20repair%20services" className="whatsapp-btn animate-pulseRing" target="_blank" rel="noopener noreferrer">
+       <a href="https://wa.me/918904822800?text=Hi%20I%20would%20like%20to%20request%20TV%20repair%20services" className="whatsapp-btn animate-pulseRing" target="_blank" rel="noopener noreferrer">
       <Image src="/whatsapp-logo.png" alt="WhatsApp" width={48} height={48} className="whatsapp-icon" />
     </a>
       <Header />
