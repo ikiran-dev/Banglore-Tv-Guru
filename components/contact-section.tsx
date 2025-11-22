@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label"
 import { Phone, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import TrackedLink from "./track"
 
 export function ContactSection() {
   const [name, setName] = useState("")
@@ -92,12 +93,12 @@ export function ContactSection() {
                 <CardContent className="p-6">
                   <h3 className="font-semibold mb-4">Contact Information</h3>
                   <div className="space-y-3">
-                    <Link href="tel:+91-8904822800">
+                    <TrackedLink href="tel:+91-8904822800">
                       <div className="flex items-center space-x-3">
                         <Phone className="w-5 h-5 text-primary" />
                         <span>+91-8904822800</span>
                       </div>
-                    </Link>
+                    </TrackedLink>
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-primary" />
                       <span>bangloretvguru@gmail.com</span>
@@ -125,7 +126,7 @@ export function ContactSection() {
                   </Button>
                 </a>
 
-                <Link href="tel:+91-8904822800">
+                <TrackedLink href="tel:+91-8904822800">
                   <Button
                     size="lg"
                     className="border border-transparent text-white hover:bg-blue-700 w-full bg-blue-600 py-6 text-lg font-bold"
@@ -133,7 +134,7 @@ export function ContactSection() {
                     <Image width={30} height={30} src="/call.gif" alt="call" />
                     Call Now
                   </Button>
-                </Link>
+                </TrackedLink>
               </div>
             </div>
           </div>

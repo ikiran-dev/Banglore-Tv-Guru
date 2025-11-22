@@ -5,6 +5,7 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
+import TrackedLink from "@/components/track"
 
 export default function Home() {
   return (
@@ -23,14 +24,14 @@ export default function Home() {
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden">
   <div className="relative md:hidden">
     <div className="absolute inset-0 sparkle-border rounded-t-lg"></div>
-    <a href="tel:+91-8904822800" 
+    <TrackedLink href="tel:+91-8904822800" 
        className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 flex flex-col items-center justify-center text-[20px] font-bold shadow-lg relative z-10 call-button transition-all duration-300">
       <div className="flex items-center space-x-1 pb-1">
         <Image width={30} height={30} src="/call.gif" alt="call"/>
         <span >Call Now: +91-8904822800</span>
       </div>
        <span className="text-[14px]">Doorstep Service With Free Estimate</span>
-    </a>
+    </TrackedLink>
   </div>
 </div>
 

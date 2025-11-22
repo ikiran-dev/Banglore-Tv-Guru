@@ -3,6 +3,7 @@ import { Phone, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
+import TrackedLink from "./track"
 
 export function TestimonialsSection() {
   const testimonials = [
@@ -74,12 +75,12 @@ export function TestimonialsSection() {
               Chat on WhatsApp Now
             </Button>
             </Link>
-             <Link href="tel:+91-8904822800">
+             <TrackedLink href="tel:+91-8904822800">
             <Button className="bg-blue-600 hover:bg-blue-700  text-white py-6 text-lg font-bold min-w-[330px]">
               <Image width={30} height={30} src="/call.gif" alt="call"/>
               Call Now
             </Button>
-            </Link>
+            </TrackedLink>
           </div>
         </div>
       </div>
