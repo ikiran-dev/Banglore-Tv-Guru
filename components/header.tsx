@@ -27,7 +27,7 @@ export function Header() {
             Contact
           </a>
         </nav>
-          <TrackedLink href="tel:+91-8904822800">
+          <TrackedLink href="tel:080-62178965">
         <Button className="bg-blue-600 hover:bg-blue-700 transition-all duration-200 text-white px-6 py-2 font-bold">
           <Image width={30} height={30} src="/call.gif" alt="call"/>
           Call Now

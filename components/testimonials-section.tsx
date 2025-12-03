@@ -75,7 +75,7 @@ export function TestimonialsSection() {
               Chat on WhatsApp Now
             </Button>
             </Link>
-             <TrackedLink href="tel:+91-8904822800">
+             <TrackedLink href="tel:080-62178965">
             <Button className="bg-blue-600 hover:bg-blue-700  text-white py-6 text-lg font-bold min-w-[330px]">
               <Image width={30} height={30} src="/call.gif" alt="call"/>
               Call Now

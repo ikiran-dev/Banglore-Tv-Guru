@@ -19,7 +19,7 @@ export function Footer() {
           Terms & Conditions
         </Link>
         <span className="text-blue-600">|</span>
-        <TrackedLink href="tel:+91-8904822800" className="text-blue-600 hover:text-blue-700 transition-colors">
+        <TrackedLink href="tel:080-62178965" className="text-blue-600 hover:text-blue-700 transition-colors">
           Contact Us
         </TrackedLink>
       </div>
